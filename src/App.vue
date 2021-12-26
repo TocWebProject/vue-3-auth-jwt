@@ -28,7 +28,7 @@
                         Hello <span class="text-blue-400">user</span>
                     </h3>
 
-                    <p class="mt-3 text-gray-100">Protégeons notre applicaiton face aux attaques classiques</p>
+                    <p class="mt-3 text-gray-100">Protégeons notre application face aux attaques classiques</p>
                 </div>
 
                 <div class="flex mt-8 lg:w-1/2 lg:justify-center lg:mt-0">
@@ -38,14 +38,14 @@
 
                             <form action="#">
                                 <div class="mt-4">
-                                    <input class="block w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Email address" aria-label="Email address">
-                                    <input class="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Password" aria-label="Password">
+                                    <input class="block w-full px-4 py-2 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="email" placeholder="Adresse Email" aria-label="Adresse Email">
+                                    <input class="block w-full px-4 py-2 mt-4 text-gray-700 placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-800 dark:border-gray-600 dark:placeholder-gray-400 focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" type="password" placeholder="Mot de passe" aria-label="Mot de passe">
                                 </div>
 
                                 <div class="flex items-center justify-between mt-4">
                                     <a href="#" class="text-sm text-gray-600 dark:text-gray-200 hover:underline mr-4">Créer un compte</a>
 
-                                    <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Login</button>
+                                    <button class="px-4 py-2 font-semibold text-white transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-800 dark:focus:bg-gray-700">Se connecter</button>
                                 </div>
                             </form>
                         </div>
