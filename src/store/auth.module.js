@@ -4,7 +4,7 @@
 // mutations: { loginSuccess, loginFailure, logout, registerSuccess, registerFailure }
 // On utilise ici l'AuthService définie avant afin de faire notre requête d'authentification
 
-import AuthService from '../services/auth.service';
+import AuthService from '../services/auth.service.js';
 
 const user = JSON.parse(localStorage.getItem('user'));
 const initialState = user
