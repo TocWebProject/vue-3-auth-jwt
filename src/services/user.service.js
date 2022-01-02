@@ -3,7 +3,7 @@
 // lorsqu'on demande l'accès a des ressources protégées. 
 
 import axios from 'axios';
-import authHeader from './auth-header';
+import authHeader from './auth-header.js';
 
 const API_URL = 'http://localhost:8082/api/test/';
 
