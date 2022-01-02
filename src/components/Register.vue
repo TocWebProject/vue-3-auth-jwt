@@ -58,6 +58,8 @@
 <script>
 import { Form, Field, ErrorMessage } from "vee-validate";
 import * as yup from "yup";
+import YupPassword from 'yup-password'
+YupPassword(yup)
 
 export default {
   name: "Register",
@@ -81,7 +83,11 @@ export default {
       password: yup
         .string()
         .required("Le mot de passe est requis")
-        .min(6, "6 caractères requis au minimum !")
+        .minLowercase(3, '3 caractères minuscules requis')
+        .minUppercase(3, '3 caractères majuscules requis')
+        .minNumbers(3, '3 chiffres requis')
+        .minSymbols(1, '1 symbole requis')
+        .min(10, "6 caractères requis au minimum !")
         .max(40, "40 caractères requis au maximum !"),
     });
 
